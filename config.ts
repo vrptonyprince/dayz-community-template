@@ -72,7 +72,7 @@ export const config: Config = {
     title: "We listen, we learn, we deliver.",
     description: "Our DayZ Community is built on the principles of transparency, integrity, and trust. We are committed to providing the best experience for our players. Wether you are a seasoned veteran or a new player, we have a place for you.",
     background: {
-      color: 'rgb(51 65 85)',
+      color: 'rgb(22 204 72)',
       image: {
         url: "/images/hero.jpg",
         alt: "Hero Image",
