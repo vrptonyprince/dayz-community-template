@@ -1,7 +1,7 @@
 import { Config } from './src/lib/config.types';
 
 export const config: Config = {
-  themeColor: "#5789f6",
+  themeColor: "#16cc48",
   logoURL: "/images/logo.png",
   site: {
     url: "https://www.skvad.eu/",
