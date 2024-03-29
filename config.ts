@@ -5,7 +5,7 @@ export const config: Config = {
   logoURL: "/images/logo.png",
   site: {
     url: "https://www.skvad.eu/",
-    title: "SKVAD Community",
+    title: "TitaniumZ",
     twitter: {
       site: "@site",
       creator: "@creator",
@@ -20,12 +20,12 @@ export const config: Config = {
   },
   pages: {
     home: {
-      title: "Home | SKVAD Community",
-      description: "Welcome to the SKVAD Community! We are a DayZ community that is dedicated to providing the best experience for our players. Join us today!",
+      title: "Home | TitaniumZ",
+      description: "Welcome to the TitaniumZ Community Website! We are a DayZ community that is dedicated to providing the best experience for our players. Join us today!",
       sections: {
         network: {
           title: "Server Network",
-          description: "Our DayZ servers are hosted in Europe and are maintained by our dedicated team of developers and system administrators.",
+          description: "Our DayZ servers are hosted in the UK but are maintained by our dedicated team of developers and system administrators within the USA.",
         },
         about: {
           title: "About Us",
@@ -57,16 +57,12 @@ export const config: Config = {
             },
           },
         },
-        leaderboard: {
-          title: "Leaderboard",
-          description: "Check out the top players on our servers and see how you compare. Can you make it to the top of the leaderboard?",
-        },
         contact: {
           title: "Contact Us",
           description: "If you have any questions or concerns, please don't hesitate to contact us through the following channels.",
           links: {
-            'Discord': "https://discord.gg/skvad",
-            'Email': "mailto:info@skvad.eu",
+            'Discord': "https://discord.com/invite/cAwwshYWsd",
+            'Email(Coming Soon)': "",
           },
         },
       },
@@ -84,26 +80,26 @@ export const config: Config = {
     },
     cta: {
       label: "Join us today!",
-      href: "https://discord.gg/mirasaki",
+      href: "https://discord.com/invite/cAwwshYWsd",
     },
   },
   servers: [
     {
-      name: 'SKVAD EU1',
-      ipv4: '193.25.252.921',
+      name: 'TitaniumZ PVE #1',
+      ipv4: '213.170.135.132',
       gamePort: 2302,
       steamQueryPort: 27016,
-      cftoolsApiId: '7732f152-3b6b-4da5-9356-b43ebfef2012',
+      cftoolsApiId: '',
     },
     {
-      name: 'SKVAD EU2',
-      ipv4: '193.25.252.24',
-      gamePort: 2302,
-      steamQueryPort: 27016,
-      cftoolsApiId: '40dfcdf1-2e38-4a86-8b36-f02e4c868bf5',
+      name: 'TitaniumZ PVE #2 (Namalsk Soon)',
+      ipv4: '',
+      gamePort: ,
+      steamQueryPort: ,
+      cftoolsApiId: '',
     },
     {
-      name: 'SKVAD EU3',
+      name: 'TitaniumZ PVE #3 (Deerisle Soon)',
       ipv4: '193.25.252.24',
       gamePort: 2402,
       steamQueryPort: 27017,
@@ -112,7 +108,7 @@ export const config: Config = {
   ],
   cftools: {
     leaderboard: {
-      enabled: true,
+      enabled: false,
       defaultSortValue: 'kills',
       allowedSortValues: ['kills', 'deaths', 'kdratio', 'longest_kill', 'longest_shot', 'playtime', 'suicides'],
       blacklistedCFToolsIds: [],
@@ -120,11 +116,11 @@ export const config: Config = {
     },
   },
   footer: {
-    trademarkNotice: "The DayZ logo is a registered trademark of Bohemia Interactive a.s. SKVAD is not affiliated with Bohemia Interactive a.s. or DayZ. All other trademarks are the property of their respective owners.",
-    brandingName: "SKVAD Community",
+    trademarkNotice: "The DayZ logo is a registered trademark of Bohemia Interactive a.s. TitaniumZ is not affiliated with Bohemia Interactive a.s. or DayZ. All other trademarks are the property of their respective owners.",
+    brandingName: "TitaniumZ Community Website",
     brandingURL: '/',
-    initialCopyrightYear: 2021,
-    copyrightBrandName: "SKVAD",
+    initialCopyrightYear: 2024,
+    copyrightBrandName: "TitaniumZ",
     copyrightBrandUrl: '/',
     links: [
       {
