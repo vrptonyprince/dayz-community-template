@@ -132,28 +132,28 @@ export const config: Config = {
         label: 'About',
       },
       {
-        url: '#',
-        label: 'Meet the Team',
+        url: 'https://www.paypal.com/paypalme/tonyprincecrp',
+        label: 'Paypal',
+      },
+      {
+        url: 'https://cash.app/$unknownfrost',
+        label: 'Cashapp',
       },
       {
         url: '#',
-        label: 'Campaigns',
+        label: 'Server Updates Blog (Soon)',
       },
       {
         url: '#',
-        label: 'Blog',
+        label: 'Rules (Soon)',
       },
       {
         url: '#',
-        label: 'Affiliate Program',
+        label: 'Soon',
       },
       {
-        url: '#',
-        label: 'FAQs',
-      },
-      {
-        url: '#',
-        label: 'Contact',
+        url: 'https://discord.com/invite/cAwwshYWsd',
+        label: 'Discord',
       },
     ],
   },
