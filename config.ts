@@ -99,7 +99,7 @@ export const config: Config = {
       name: 'TitaniumZ PVE #2 (Namalsk Soon)',
       ipv4: '213.170.135.132',
       gamePort: 2302,
-      steamQueryPort: pok,
+      steamQueryPort: 27017,
       cftoolsApiId: '',
     },
     {
