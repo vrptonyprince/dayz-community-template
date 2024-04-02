@@ -95,7 +95,7 @@ export const ServerCard = async ({
 const ServerNetworkSection = async () => {
   return (
     <section className={cn(
-      'py-8 md:py-16 lg:py-28 px-1 sm:px-2 md:px-4 w-full bg-lime-950',
+      'py-8 md:py-16 lg:py-28 px-1 sm:px-2 md:px-4 w-full bg-black',
       // 'bg-[url("/images/globe.png")] bg-center bg-no-repeat bg-cover',
       'relative z-10 overflow-hidden'
      )} id='servers'>
