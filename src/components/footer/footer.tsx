@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <footer className='pb-2 px-4 md:px-8 pt-4 md:pt-8 bg-white dark:bg-gray-800'>
+    <footer className='pb-2 px-4 md:px-8 pt-4 md:pt-8 bg-white dark:bg-black'>
       <div className='mx-auto max-w-screen-xl text-center'>
         <Link
           href={config.footer.brandingURL ?? '#'}
